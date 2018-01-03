@@ -13,7 +13,7 @@ docker build
 
 ```bash
 docker-compose run codeocean-source
-docker-compose run --rm php artisan key:generate
+docker-compose run --rm php php artisan key:generate
 ```
 
 ## Run it
