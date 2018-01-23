@@ -24,6 +24,7 @@ services:
       DB_PASSWORD: "5RGGjwubxdqyF6dL"
       APP_KEY: "base64:i401pX1nVrGs5i4eWFoxB67N5mkfVhrF9kxqKSkj15o="
       APP_ENV: testing
+      GIT_BINARY: git
       GIT_DATA: "/var/opt/gitcity/git-data/"
       GIT_SSH_KEYS: "/var/opt/gitcity/git-data/.ssh/"
       SPACES_DATA: "/var/opt/gitcity/spaces-data/"
