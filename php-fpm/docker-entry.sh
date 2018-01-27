@@ -2,6 +2,7 @@
 
 echo -ne "Update folder and files rights..."
 chown www-data:www-data /var/opt/gitcity/git-data
+chown www-data:www-data /var/www/html/storage/app
 chmod +x /var/www/html/embeded/git-shell/ssh-exec
 chmod +x /var/www/html/embeded/git-shell/hooks/pre-receive
 chmod +x /var/www/html/embeded/git-shell/hooks/update
