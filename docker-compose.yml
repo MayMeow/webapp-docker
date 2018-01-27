@@ -2,11 +2,12 @@ version: '2.1'
 
 services:
   codeocean-source:
-    image: maymeow/webapp-ce:v0.0.5
+    image: maymeow/webapp-ce:v0.0.6
     volumes:
       - /var/www/html
       - ./volumes/git-data:/var/opt/gitcity/git-data:rw
       - ./volumes/spaces-data:/var/opt/gitcity/spaces-data:rw
+      - ./volumes/storage:/var/www/html/storage/app:rw
 
   php:
     build: ./php-fpm
